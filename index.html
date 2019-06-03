@@ -1,11 +1,29 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Shiva</title>
-    </head>
-    <body>
-        <p>git file 1st commit</p>
-        <p>jain added this.</p>
-        <button>Subham</button>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    
+    <div class="turns"></div>
+    
+    <div class="boxes">
+        <div class="box box1" id='0'>Hidden</div>
+        <div class="box box1" id='1'>Hidden</div>
+        <div class="box box1" id='2'>Hidden</div>
+        <div class="box box1" id='3'>Hidden</div>
+        <div class="box box1" id='4'>Hidden</div>
+        <div class="box box1" id='5'>Hidden</div>
+        <div class="box box1" id='6'>Hidden</div>
+    </div>
+    <div class="parent">
+            <button class="button">Start</button>
+            <div class="name">&#8592; Press the button!!</div><br/>
+            <div class="status">Game not started</div><br>
+            <button class="button reset" onclick="reset()">Reset</button>
+    </div>
+    <script src="main.js"></script>
+</body>
 </html>
